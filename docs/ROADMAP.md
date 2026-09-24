@@ -19,3 +19,9 @@ A practical sequence for an independent implementation:
 15. **Creative/media adapters** — typed high-level capabilities.
 16. **Diagnostics + live state** — doctor and generated state manifest.
 17. **Public export pipeline** — sanitize architecture separately from private state.
+
+18. **Config migrations** — schema-aware upgrades that preserve operator values and seed only newly required defaults.
+19. **Resource-aware bootstrap** — download/install plans based on profiles plus real disk/RAM/VRAM constraints.
+20. **Router mesh + external workers** — explicit data boundaries, health/cost/capability routing and policy-wrapped worker adapters.
+21. **Idle cognition governance** — bounded reflection/dream jobs that produce candidates without autonomous external effects.
+22. **Scoped verification evidence** — attach test/build/verification receipts to their exact scope before claiming health.

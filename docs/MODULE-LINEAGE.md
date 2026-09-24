@@ -1,4 +1,4 @@
-# Architecture lineage — M00 to M71
+# Architecture lineage — M00 to M80
 
 This document publishes the **design evolution** of SolarisPKN-IA without publishing the private runtime, private data, or third-party source code. Names tied to external products/frameworks were generalized into vendor-neutral concepts.
 
@@ -77,6 +77,16 @@ This document publishes the **design evolution** of SolarisPKN-IA without publis
 | M69 | Deep Markdown mind: large-vault support through configurable roots, date sharding, bounded reads and incremental indexing. |
 | M70 | Cognitive control-center refinement: note preview, cross-mind suggestions and visible Dream/affect/avatar state. |
 | M71 | Embodiment v2: presentation-level mood visuals and bounded idle actions; richer appearance remains an optional asset layer. |
+
+| M72 | Config migration: schema-aware forward migration, preserve operator values, seed only missing release defaults and validate required keys before startup. |
+| M73 | Resource-aware bootstrap: minimal/recommended/complete-local intent profiles constrained by disk/RAM/VRAM budgets and an explicit catalog. |
+| M74 | Router mesh: route health/privacy/capability/cost/locality using declared data boundaries; loopback alone is not proof of locality. |
+| M75 | External worker adapters: coding/automation workers stay behind capability policy, environment filtering, mutation approval and an independent sandbox boundary. |
+| M76 | Conversational orchestration: chat remains primary while providers, tools and workers are selected behind capability contracts. |
+| M77 | Idle cognition governance: reflection/dream work pauses on activity, is budgeted, has no external effects and emits candidates/proposals only. |
+| M78 | Portable embodiment: movable/avatar clients remain presentation endpoints without implicit camera, desktop-control or policy authority. |
+| M79 | Scoped verification evidence: evidence is attached to the exact checked scope; targeted checks cannot imply whole-system health. |
+| M80 | Baseline acceptance: classify capabilities as local, adapter-dependent, authorization-dependent or environment-blocked and close the integration loop. |
 
 ## Why publish lineage?
 

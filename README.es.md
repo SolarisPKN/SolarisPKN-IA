@@ -15,16 +15,16 @@ Ahora el repo documenta el catálogo sanitizado completo recuperado del diseño:
 - **133** primitivas fundacionales;
 - **660** requisitos posteriores individualizados;
 - **793** puntos de capacidad/requisito en total;
-- evolución arquitectónica desde **M00 hasta M71**.
+- evolución arquitectónica desde **M00 hasta M80**.
 
 Empezá por:
 
 - [Inventario completo de capacidades](docs/capabilities/README.md)
 - [Capacidades fundacionales](docs/FOUNDATION-CAPABILITIES.md)
 - [Especificación completa del sistema](docs/FULL-SYSTEM-SPEC.md)
-- [Evolución M00–M71](docs/MODULE-LINEAGE.md)
+- [Evolución M00–M80](docs/MODULE-LINEAGE.md)
 
-## Nuevos patrones de referencia hasta M71
+## Nuevos patrones de referencia hasta M80
 
 El blueprint público ahora también documenta:
 
@@ -35,7 +35,9 @@ El blueprint público ahora también documenta:
 - **métricas afectivas funcionales** (solo presentación/control; jamás verdad o autorización);
 - una capa opcional de **estado de avatar de escritorio** guiada por actividad/afecto, sin autoridad implícita sobre cámara o control del escritorio.
 
-Ver [Doble mente Markdown](docs/DUAL-MIND-MARKDOWN.md), [Sueño/Afecto/Avatar](docs/DREAM-AFFECT-AVATAR.md) y [Router Bridges](docs/ROUTER-BRIDGES.md).
+Ver [Doble mente Markdown](docs/DUAL-MIND-MARKDOWN.md), [Sueño/Afecto/Avatar](docs/DREAM-AFFECT-AVATAR.md), [Router Bridges](docs/ROUTER-BRIDGES.md) y los [patrones de referencia M72–M80](docs/M80-REFERENCE.md).
+
+M72–M80 agregan migración genérica de configuración, bootstrap consciente de recursos, fronteras de datos explícitas para routers, workers externos detrás de políticas, gobierno de cognición ociosa y evidencia de verificación ligada a su alcance.
 
 ## Idea central
 
