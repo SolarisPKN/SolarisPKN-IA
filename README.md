@@ -15,16 +15,16 @@ This repository now documents the full sanitized capability catalog recovered fr
 - **133** foundation primitives;
 - **660** individually named later requirements;
 - **793** capability/requirement points total;
-- architecture lineage from **M00 through M71**.
+- architecture lineage from **M00 through M80**.
 
 Start with:
 
 - [Complete capability inventory](docs/capabilities/README.md)
 - [Foundation capabilities](docs/FOUNDATION-CAPABILITIES.md)
 - [Full system specification](docs/FULL-SYSTEM-SPEC.md)
-- [Architecture lineage M00–M71](docs/MODULE-LINEAGE.md)
+- [Architecture lineage M00–M80](docs/MODULE-LINEAGE.md)
 
-## New reference patterns through M71
+## New reference patterns through M80
 
 The public blueprint now also documents:
 
@@ -35,7 +35,9 @@ The public blueprint now also documents:
 - **functional affect metrics** (for presentation/control only, never truth or authorization);
 - an optional **desktop-avatar state layer** driven by activity/affect, without implicit camera or desktop-control authority.
 
-See [Dual Markdown Mind](docs/DUAL-MIND-MARKDOWN.md), [Dream/Affect/Avatar](docs/DREAM-AFFECT-AVATAR.md), and [Router Bridges](docs/ROUTER-BRIDGES.md).
+See [Dual Markdown Mind](docs/DUAL-MIND-MARKDOWN.md), [Dream/Affect/Avatar](docs/DREAM-AFFECT-AVATAR.md), [Router Bridges](docs/ROUTER-BRIDGES.md), and the [M72–M80 reference patterns](docs/M80-REFERENCE.md).
+
+M72–M80 add generic configuration migration, resource-aware bootstrap profiles, explicit router data boundaries, policy-wrapped external workers, idle-cognition governance, and scope-bound verification evidence.
 
 ## Core idea
 

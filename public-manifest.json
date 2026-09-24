@@ -10,7 +10,7 @@
     "foundationPrimitives": 133,
     "historicalNamedRequirements": 660,
     "totalRepresented": 793,
-    "designModules": 72
+    "designModules": 81
   },
   "architecture": {
     "chatFirst": true,
@@ -25,8 +25,14 @@
     "dreamReflection": true,
     "functionalAffect": true,
     "embodimentState": true,
-    "routerProfiles": true
+    "routerProfiles": true,
+    "configMigrations": true,
+    "resourceBootstrapProfiles": true,
+    "routerMesh": true,
+    "externalWorkerAdapters": true,
+    "idleCognitionGovernance": true,
+    "scopedVerificationEvidence": true
   },
   "license": "GPL-3.0-only",
-  "latestModule": "M71"
+  "latestModule": "M80"
 }
