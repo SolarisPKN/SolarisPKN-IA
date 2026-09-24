@@ -1,0 +1,23 @@
+# Memory/Knowledge/Workspace
+
+Public sanitized capability inventory for this domain. **15 items.**
+
+> Status: `SPECIFIED` = architecture/contract defined; `NEEDS_ADAPTER` = concrete implementation/adapter/benchmark still required; `EXTERNAL` = requires real external hardware/service/account.
+
+| ID | Capability / requirement | Status |
+|---:|---|---|
+| 337 | ARCHITECTURAL KNOWLEDGE BASE | `NEEDS_ADAPTER` |
+| 361 | MULTI-AGENT MEMORY BOUNDARY | `NEEDS_ADAPTER` |
+| 366 | ONE TASK / ONE WORKSPACE | `NEEDS_ADAPTER` |
+| 632 | KNOWLEDGE VS SKILL VS CONNECTOR | `NEEDS_ADAPTER` |
+| 646 | PERSONAL KNOWLEDGE GRAPH V2 | `NEEDS_ADAPTER` |
+| K | EVIDENCE BOARD | `SPECIFIED` |
+| L | EPISTEMIC STATUS | `SPECIFIED` |
+| M | HYBRID KNOWLEDGE FABRIC | `NEEDS_ADAPTER` |
+| N | HUMAN-READABLE KNOWLEDGE VAULT | `NEEDS_ADAPTER` |
+| O | KNOWLEDGE LINT | `SPECIFIED` |
+| S | PERSISTENT WORKSPACE OS | `SPECIFIED` |
+| T | WORKSPACE PERSISTENCE | `SPECIFIED` |
+| AO | MEMORY PLACEMENT EXPERIMENTS | `NEEDS_ADAPTER` |
+| BT | CORE ACCEPTANCE TEST — KNOWLEDGE | `NEEDS_ADAPTER` |
+| BU | CORE ACCEPTANCE TEST — WORKSPACE | `NEEDS_ADAPTER` |

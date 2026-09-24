@@ -6,6 +6,12 @@
   "containsCredentials": false,
   "containsThirdPartySource": false,
   "containsModelWeights": false,
+  "capabilityInventory": {
+    "foundationPrimitives": 133,
+    "historicalNamedRequirements": 660,
+    "totalRepresented": 793,
+    "designModules": 61
+  },
   "architecture": {
     "chatFirst": true,
     "eventSourcedSessions": true,
@@ -16,6 +22,5 @@
     "voiceTransport": true,
     "portableAppEngineering": true
   },
-  "license": "GPL-3.0-only",
-  "publicationNote": "Released under the GNU General Public License v3.0 only."
+  "license": "GPL-3.0-only"
 }

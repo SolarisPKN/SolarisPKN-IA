@@ -2,15 +2,31 @@
 
 [English](README.md) · **Español**
 
-SolarisPKN-IA es un **blueprint público y neutral respecto de proveedores** para construir un asistente personal privado, extensible y orientado al chat.
+Este repositorio contiene la **idea arquitectónica pública** detrás de SolarisPKN-IA.
 
-Este repositorio **no es la instancia privada de Solaris**. No incluye memoria personal, personalidad, conversaciones, credenciales, rutas locales, proyectos privados, modelos empaquetados ni código fuente de frameworks o servicios de terceros.
+Deliberadamente **no es la Solaris privada**. No contiene memoria personal, personalidad privada, historial de proyectos privados, credenciales, rutas locales, conversaciones privadas, pesos de modelos ni código fuente de frameworks/servicios de terceros.
 
-La idea es simple: si alguien pregunta **«¿cómo puedo construir un asistente como Solaris?»**, este repositorio debería explicar la arquitectura y mostrar una implementación mínima suficiente para crear una versión independiente.
+La meta es sencilla: si alguien pregunta **«¿cómo puedo construir un asistente como Solaris?»**, este repositorio debe mostrar la arquitectura, el mapa completo de capacidades y una implementación mínima de referencia sin publicar la instancia privada.
 
-## La idea central
+## Espacio completo de capacidades
 
-Solaris no es un único modelo gigante ni una carpeta con cientos de botones. Está compuesto por capas pequeñas y reemplazables:
+Ahora el repo documenta el catálogo sanitizado completo recuperado del diseño:
+
+- **133** primitivas fundacionales;
+- **660** requisitos posteriores individualizados;
+- **793** puntos de capacidad/requisito en total;
+- evolución arquitectónica desde **M00 hasta M60**.
+
+Empezá por:
+
+- [Inventario completo de capacidades](docs/capabilities/README.md)
+- [Capacidades fundacionales](docs/FOUNDATION-CAPABILITIES.md)
+- [Especificación completa del sistema](docs/FULL-SYSTEM-SPEC.md)
+- [Evolución M00–M60](docs/MODULE-LINEAGE.md)
+
+## Idea central
+
+Solaris no es un único modelo gigante ni una carpeta con cientos de botones. Es un asistente privado compuesto por capas pequeñas y reemplazables:
 
 ```text
 Usuario (texto / voz / interfaz)
@@ -38,49 +54,51 @@ Usuario (texto / voz / interfaz)
                Respuesta al usuario
 ```
 
-El asistente selecciona las capacidades automáticamente. La interfaz normal debe sentirse como un chat, no como una caja de herramientas.
+El asistente elige las capacidades automáticamente. La interfaz normal debe sentirse como un chat, no como una caja de herramientas.
 
-## Principios de diseño
+## Principios
 
-1. **Privado por defecto.** Los datos locales no salen de la máquina salvo que una política explícita lo autorice.
-2. **Capacidad antes que proveedor.** El núcleo pide `speech.tts`, `code.execute`, `memory.search` o `image.edit`; el proveedor se decide después.
-3. **Deny-by-default.** Leer y razonar están separados de las acciones con efectos externos.
-4. **La aprobación pertenece a la acción exacta.** Aprobar un payload no autoriza otro distinto.
-5. **Un único stream durable de eventos.** El estado importante de una sesión se puede reconstruir a partir de eventos tipados.
-6. **La memoria está gobernada.** La información nueva no se promociona automáticamente a verdad permanente.
-7. **Aprendizaje basado en evidencia.** Un conocimiento puede avanzar por `candidate → validated → practiced → verified → mastered`.
-8. **Adaptadores reemplazables.** Modelos, voz, navegador, herramientas creativas, canales y dispositivos son proveedores opcionales.
-9. **Chat-first.** Los paneles avanzados existen para diagnóstico y administración, no para el uso cotidiano.
-10. **Los sistemas de terceros no son la arquitectura.** Este repositorio no redistribuye frameworks externos.
+1. **Privado por defecto.**
+2. **Capacidad antes que proveedor.**
+3. **Deny-by-default para efectos externos.**
+4. **La aprobación está ligada a la acción exacta.**
+5. **Un stream durable de eventos.**
+6. **Memoria gobernada y con procedencia.**
+7. **Aprendizaje basado en evidencia:** `candidate → validated → practiced → verified → mastered`.
+8. **Adaptadores reemplazables.**
+9. **UX chat-first.**
+10. **Los sistemas de terceros son referencias, no la arquitectura.**
 
 ## Qué incluye
 
-- arquitectura vendor-neutral;
-- una implementación de referencia pequeña y original usando solamente módulos built-in de Node.js;
-- ejemplos de sesiones event-sourced, capabilities, selección de tools, políticas, aprendizaje, gateways, nodos y contratos de voz;
-- reglas de seguridad y privacidad;
-- una guía paso a paso para construir tu propia implementación;
-- checklist para separar lo público de lo privado;
-- tests que demuestran invariantes importantes.
+- arquitectura neutral respecto del proveedor;
+- inventario exhaustivo sanitizado;
+- implementación de referencia pequeña y original;
+- sesiones event-sourced, registry de capacidades, broker de tools, políticas, learning, gateway/nodes y contratos de voz;
+- seguridad y privacidad;
+- guía para construir una implementación propia;
+- separación público/privado;
+- tests sintéticos.
 
-## Qué NO incluye
+## Qué no incluye
 
 Ver [docs/WHAT-IS-NOT-INCLUDED.md](docs/WHAT-IS-NOT-INCLUDED.md).
 
 ## Por dónde empezar
 
 1. Leé [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
-2. Seguí [docs/BUILD-YOUR-OWN.md](docs/BUILD-YOUR-OWN.md).
-3. Ejecutá `npm test`.
-4. Ejecutá `npm run demo`.
-5. Agregá tus propios providers mediante contratos genéricos en lugar de modificar el core.
+2. Abrí el [inventario completo](docs/capabilities/README.md).
+3. Seguí [docs/BUILD-YOUR-OWN.md](docs/BUILD-YOUR-OWN.md).
+4. Ejecutá `npm test`.
+5. Ejecutá `npm run demo`.
+6. Agregá providers mediante contratos genéricos en lugar de reescribir el core.
 
 ## Límite público / privado
 
-Una instancia real puede tener memoria privada, personalidad propia, proyectos del usuario, credenciales, rutas locales, dispositivos vinculados y reglas personales de automatización. **Nada de eso pertenece a este repositorio.**
+Una instalación real puede tener memoria, personalidad, proyectos, credenciales, rutas locales, dispositivos vinculados y reglas personales. **Nada de eso pertenece a este repositorio.**
 
-Este repositorio documenta el mecanismo, no a su dueño.
+El repo documenta el mecanismo y el espacio de ideas, no a su dueño.
 
 ## Licencia
 
-SolarisPKN-IA se distribuye bajo la **GNU General Public License v3.0 (GPL-3.0)**. Consultá [LICENSE](LICENSE).
+SolarisPKN-IA se distribuye bajo la **GNU General Public License v3.0 only (GPL-3.0-only)**. Ver [LICENSE](LICENSE).

@@ -1,0 +1,16 @@
+# Privacy/observation
+
+Public sanitized capability inventory for this domain. **10 items.**
+
+| ID | Capability / requirement | Status |
+|---:|---|---|
+| 562 | PRIVACY GUARDIAN | `NEEDS_ADAPTER` |
+| 563 | PRIVATE MODE | `NEEDS_ADAPTER` |
+| 564 | INCOGNITO RULE | `NEEDS_ADAPTER` |
+| 565 | PRIVATE MEANS UNKNOWN BY DESIGN | `NEEDS_ADAPTER` |
+| 566 | PRIVACY COMMAND | `NEEDS_ADAPTER` |
+| 567 | PRIVACY INDICATOR | `NEEDS_ADAPTER` |
+| 568 | PRIVACY ZONES | `NEEDS_ADAPTER` |
+| 569 | DATA RETENTION | `NEEDS_ADAPTER` |
+| AK | PRIVACY GUARDIAN | `NEEDS_ADAPTER` |
+| BY | CORE ACCEPTANCE TEST — PRIVACY | `NEEDS_ADAPTER` |
