@@ -1,0 +1,21 @@
+{
+  "name": "SolarisPKN-IA Public Blueprint",
+  "edition": "public-clean-room",
+  "containsPrivatePersona": false,
+  "containsPersonalMemory": false,
+  "containsCredentials": false,
+  "containsThirdPartySource": false,
+  "containsModelWeights": false,
+  "architecture": {
+    "chatFirst": true,
+    "eventSourcedSessions": true,
+    "providerNeutralCapabilities": true,
+    "denyByDefaultPolicy": true,
+    "evidenceBasedLearning": true,
+    "gatewayAndNodes": true,
+    "voiceTransport": true,
+    "portableAppEngineering": true
+  },
+  "license": "GPL-3.0-only",
+  "publicationNote": "Released under the GNU General Public License v3.0 only."
+}

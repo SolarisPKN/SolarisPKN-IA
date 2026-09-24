@@ -1,0 +1,15 @@
+{
+  "name": "solarispkn-ia-public-blueprint",
+  "version": "1.0.0",
+  "description": "Public, vendor-neutral blueprint and reference skeleton for building a private-first personal AI assistant.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "demo": "node scripts/demo.mjs",
+    "audit:public": "node scripts/public-audit.mjs"
+  },
+  "license": "GPL-3.0-only"
+}
