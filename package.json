@@ -1,6 +1,6 @@
 {
   "name": "solarispkn-ia-public-blueprint",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Public, vendor-neutral blueprint and reference skeleton for building a private-first personal AI assistant.",
   "type": "module",
   "engines": {

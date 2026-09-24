@@ -1,4 +1,4 @@
-# Architecture lineage — M00 to M60
+# Architecture lineage — M00 to M71
 
 This document publishes the **design evolution** of SolarisPKN-IA without publishing the private runtime, private data, or third-party source code. Names tied to external products/frameworks were generalized into vendor-neutral concepts.
 
@@ -65,6 +65,18 @@ This document publishes the **design evolution** of SolarisPKN-IA without publis
 | M58 | Creative tool fabric: provider-neutral image/3D/video/audio/streaming capabilities through typed adapters. |
 | M59 | Creative safety/verification: snapshot before mutation, typed tools first, preview/verify before finalize/publish. |
 | M60 | Knowledge packs/final integration: durable local operational playbooks that remain useful even when external teachers/providers are offline. |
+
+| M61 | Router bridge contracts: loopback-first model gateways and coding-agent adapters stay behind capability/policy boundaries. |
+| M62 | Dual Markdown mind: owner vault read-only, assistant vault writable, wikilinks/search/graph as derived views. |
+| M63 | Dream/reflection cycle: bounded reflection creates candidate notes without automatic durable-truth promotion. |
+| M64 | Functional affect state: numeric control/presentation signals separated from factual truth and authorization. |
+| M65 | Desktop embodiment: optional avatar state driven by activity, gaze hints and sleep/work modes without implicit camera/input control. |
+| M66 | Cognitive control center: mind graph, reflection status, affect and embodiment become observable from one local panel. |
+| M67 | Operational connector semantics: capabilities are either locally active or explicitly require a real connector; no simulated availability. |
+| M68 | Router profiles: balanced/coding/cheap/fast/offline selection with privacy compatibility and health as routing inputs. |
+| M69 | Deep Markdown mind: large-vault support through configurable roots, date sharding, bounded reads and incremental indexing. |
+| M70 | Cognitive control-center refinement: note preview, cross-mind suggestions and visible Dream/affect/avatar state. |
+| M71 | Embodiment v2: presentation-level mood visuals and bounded idle actions; richer appearance remains an optional asset layer. |
 
 ## Why publish lineage?
 

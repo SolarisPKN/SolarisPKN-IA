@@ -15,14 +15,27 @@ Ahora el repo documenta el catálogo sanitizado completo recuperado del diseño:
 - **133** primitivas fundacionales;
 - **660** requisitos posteriores individualizados;
 - **793** puntos de capacidad/requisito en total;
-- evolución arquitectónica desde **M00 hasta M60**.
+- evolución arquitectónica desde **M00 hasta M71**.
 
 Empezá por:
 
 - [Inventario completo de capacidades](docs/capabilities/README.md)
 - [Capacidades fundacionales](docs/FOUNDATION-CAPABILITIES.md)
 - [Especificación completa del sistema](docs/FULL-SYSTEM-SPEC.md)
-- [Evolución M00–M60](docs/MODULE-LINEAGE.md)
+- [Evolución M00–M71](docs/MODULE-LINEAGE.md)
+
+## Nuevos patrones de referencia hasta M71
+
+El blueprint público ahora también documenta:
+
+- **perfiles de routing** sobre gateways de modelos reemplazables, con contexto privado denegado salvo declaración explícita de compatibilidad;
+- **doble mente Markdown**: un vault del dueño en solo lectura + un vault separado y escribible de la IA;
+- Markdown/wikilinks compatibles con Obsidian, sharding por fecha, recuperación acotada y sugerencias de conexiones entre ambas mentes;
+- un ciclo explícito de **Sueño/reflexión** que genera candidatos pero nunca promociona hechos silenciosamente;
+- **métricas afectivas funcionales** (solo presentación/control; jamás verdad o autorización);
+- una capa opcional de **estado de avatar de escritorio** guiada por actividad/afecto, sin autoridad implícita sobre cámara o control del escritorio.
+
+Ver [Doble mente Markdown](docs/DUAL-MIND-MARKDOWN.md), [Sueño/Afecto/Avatar](docs/DREAM-AFFECT-AVATAR.md) y [Router Bridges](docs/ROUTER-BRIDGES.md).
 
 ## Idea central
 

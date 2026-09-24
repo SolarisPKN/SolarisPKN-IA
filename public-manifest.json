@@ -10,7 +10,7 @@
     "foundationPrimitives": 133,
     "historicalNamedRequirements": 660,
     "totalRepresented": 793,
-    "designModules": 61
+    "designModules": 72
   },
   "architecture": {
     "chatFirst": true,
@@ -20,7 +20,13 @@
     "evidenceBasedLearning": true,
     "gatewayAndNodes": true,
     "voiceTransport": true,
-    "portableAppEngineering": true
+    "portableAppEngineering": true,
+    "dualMarkdownMind": true,
+    "dreamReflection": true,
+    "functionalAffect": true,
+    "embodimentState": true,
+    "routerProfiles": true
   },
-  "license": "GPL-3.0-only"
+  "license": "GPL-3.0-only",
+  "latestModule": "M71"
 }

@@ -15,14 +15,27 @@ This repository now documents the full sanitized capability catalog recovered fr
 - **133** foundation primitives;
 - **660** individually named later requirements;
 - **793** capability/requirement points total;
-- architecture lineage from **M00 through M60**.
+- architecture lineage from **M00 through M71**.
 
 Start with:
 
 - [Complete capability inventory](docs/capabilities/README.md)
 - [Foundation capabilities](docs/FOUNDATION-CAPABILITIES.md)
 - [Full system specification](docs/FULL-SYSTEM-SPEC.md)
-- [Architecture lineage M00–M60](docs/MODULE-LINEAGE.md)
+- [Architecture lineage M00–M71](docs/MODULE-LINEAGE.md)
+
+## New reference patterns through M71
+
+The public blueprint now also documents:
+
+- **router profiles** over interchangeable model gateways, with private-context routing denied unless explicitly declared compatible;
+- **dual Markdown minds**: an owner-controlled read-only vault plus a separate writable assistant vault;
+- Obsidian-compatible Markdown and wikilinks, date sharding, bounded retrieval, and cross-mind connection suggestions;
+- an explicit **Dream/reflection cycle** that creates candidates but never silently promotes facts;
+- **functional affect metrics** (for presentation/control only, never truth or authorization);
+- an optional **desktop-avatar state layer** driven by activity/affect, without implicit camera or desktop-control authority.
+
+See [Dual Markdown Mind](docs/DUAL-MIND-MARKDOWN.md), [Dream/Affect/Avatar](docs/DREAM-AFFECT-AVATAR.md), and [Router Bridges](docs/ROUTER-BRIDGES.md).
 
 ## Core idea
 
