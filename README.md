@@ -39,6 +39,14 @@ See [Dual Markdown Mind](docs/DUAL-MIND-MARKDOWN.md), [Dream/Affect/Avatar](docs
 
 M72–M80 add generic configuration migration, resource-aware bootstrap profiles, explicit router data boundaries, policy-wrapped external workers, idle-cognition governance, and scope-bound verification evidence.
 
+## Runtime-parity update — October 2026
+
+The blueprint now includes small executable public analogues for exact-bound one-shot approvals, durable revision-aware jobs, evidence/diversity consensus, telemetry-driven functional state, explicit egress policy, and sanitized MCP exposure. A secure paired-mobile approval flow is specified without publishing deployment secrets or private host bindings.
+
+See [Runtime parity](docs/RUNTIME-PARITY.md), [Provenance](docs/PROVENANCE.md), and [Remote critical approvals](docs/REMOTE-APPROVALS.md).
+
+A 2026-10-05 private-reference acceptance snapshot reported 93 COVERED, 548 PARTIAL and 19 BLOCKED_EXTERNAL points out of the 793 represented requirements. Those figures describe evidence in that reference deployment; they are not a claim that this public blueprint implements all 793 points.
+
 ## Core idea
 
 Solaris is not one giant model and not a folder full of hundreds of buttons. It is a private-first assistant built from small, replaceable layers:

@@ -39,6 +39,14 @@ Ver [Doble mente Markdown](docs/DUAL-MIND-MARKDOWN.md), [Sueño/Afecto/Avatar](d
 
 M72–M80 agregan migración genérica de configuración, bootstrap consciente de recursos, fronteras de datos explícitas para routers, workers externos detrás de políticas, gobierno de cognición ociosa y evidencia de verificación ligada a su alcance.
 
+## Actualización de paridad con el runtime — octubre de 2026
+
+El blueprint ahora incluye análogos públicos ejecutables y pequeños para aprobaciones one-shot ligadas al digest exacto, jobs durables con revisión optimista, consenso con evidencia y diversidad, estado funcional derivado de telemetría, política explícita de egress y exposición MCP sanitizada. También se documenta un flujo seguro de aprobación móvil emparejada sin publicar secretos ni bindings privados del host.
+
+Ver [Paridad con el runtime](docs/RUNTIME-PARITY.md), [Procedencia](docs/PROVENANCE.md) y [Aprobaciones críticas remotas](docs/REMOTE-APPROVALS.md).
+
+Un snapshot interno del 05/10/2026 sobre una instalación privada de referencia reportó 93 puntos COVERED, 548 PARTIAL y 19 BLOCKED_EXTERNAL de los 793 requisitos representados. Esos números describen evidencia de esa instalación; no afirman que este blueprint público implemente los 793 puntos.
+
 ## Idea central
 
 Solaris no es un único modelo gigante ni una carpeta con cientos de botones. Es un asistente privado compuesto por capas pequeñas y reemplazables:

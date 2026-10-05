@@ -1,6 +1,6 @@
 {
   "name": "SolarisPKN-IA Public Blueprint",
-  "edition": "public-clean-room",
+  "edition": "public-clean-room-runtime-parity",
   "containsPrivatePersona": false,
   "containsPersonalMemory": false,
   "containsCredentials": false,
@@ -34,5 +34,22 @@
     "scopedVerificationEvidence": true
   },
   "license": "GPL-3.0-only",
-  "latestModule": "M80"
+  "latestModule": "M80",
+  "runtimePatterns": {
+    "exactBoundApprovals": true,
+    "durableRevisionedJobs": true,
+    "diversityConsensus": true,
+    "functionalTelemetryState": true,
+    "explicitEgressPolicy": true,
+    "sanitizedMcpExposure": true,
+    "remoteCriticalApprovalDesign": true
+  },
+  "operationalSnapshot": {
+    "observedAt": "2026-10-05",
+    "totalRepresented": 793,
+    "covered": 93,
+    "partial": 548,
+    "blockedExternal": 19,
+    "meaning": "dated evidence snapshot from a private reference deployment; not a public completeness claim"
+  }
 }
