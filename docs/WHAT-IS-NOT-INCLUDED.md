@@ -32,3 +32,8 @@ Not included:
 ## Integration strategy
 
 A private installation may connect compatible external systems through generic provider interfaces. That integration belongs in local/private configuration or a separately licensed adapter package.
+
+
+## Operational snapshots
+
+The repository may publish aggregate, dated implementation-status counts to explain architectural maturity. Those counts never include private memories, conversations, credentials, device identities, host paths, request payloads or personal configuration, and they must not be interpreted as proof that every represented capability is implemented in the public package.

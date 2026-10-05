@@ -12,3 +12,8 @@ It intentionally does **not** bundle:
 - private user data or private runtime artifacts.
 
 External systems can be connected later through standard adapter contracts such as HTTP, WebSocket, CLI processes, OAuth/OIDC, or MCP. Those integrations are not part of this distribution.
+
+
+## Provenance references
+
+Named external projects may appear in docs/PROVENANCE.md strictly as research, inspiration or interoperability references. Their names and links do not imply bundled source, endorsement, ownership, or relicensing. Public SolarisPKN-IA code remains the clean-room implementation distributed under this repository's license.

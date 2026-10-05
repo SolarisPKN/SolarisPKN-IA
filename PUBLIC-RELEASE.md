@@ -39,3 +39,10 @@ Run `npm test` and `npm run audit:public` before publishing modifications.
 ## Licensing
 
 This public edition is licensed under the **GNU General Public License v3.0 only (GPL-3.0-only)**. See `LICENSE`.
+
+
+## Runtime-parity reference wave
+
+The October 2026 wave adds inspectable reference modules for approval state, durable jobs, consensus review, functional telemetry state, egress policy and MCP exposure. It also adds CI that runs both the test suite and the public sanitization audit on pushes and pull requests.
+
+Operational counts in docs/RUNTIME-PARITY.md are a dated evidence snapshot from a private reference deployment, not a completeness claim for this public package.

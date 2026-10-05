@@ -45,3 +45,8 @@ Run:
 npm test
 npm run audit:public
 ```
+
+
+## Allowed provenance references
+
+Docs may name external projects or standards to explain research lineage and interoperability. Those textual references are not bundled third-party source. The public audit focuses on private data, credentials, host-specific material and other accidental disclosure risks.
