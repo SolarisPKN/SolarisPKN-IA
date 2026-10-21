@@ -48,7 +48,10 @@ for (const record of manifest.files) {
       issues.push({ path: record.path, reason: 'not-a-regular-file' });
       continue;
     }
-    const actual = createHash('sha256').update(await readFile(absolute)).digest('hex');
+    // Git can check out text files as CRLF on Windows. The release manifest
+    // records the canonical LF source bytes; do not reject equivalent line endings.
+    const canonical = (await readFile(absolute, 'utf8')).replace(/\r\n/g, '\n');
+    const actual = createHash('sha256').update(canonical, 'utf8').digest('hex');
     if (actual !== record.sha256) issues.push({ path: record.path, reason: 'content-changed' });
   } catch {
     issues.push({ path: record.path, reason: 'missing-or-inaccessible-file' });

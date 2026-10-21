@@ -126,7 +126,7 @@
                   },
                   {
                       "path":  "scripts/release-verify.mjs",
-                      "sha256":  "bf6089c3b4c29f04097e17aa8fdac936dedb8074942eefc35bb8c383edc93922",
+                      "sha256":  "7bbc12b0396c677224e0d676650d6a17d524f53181c80cbcc39930f6f2a5d581",
                       "kind":  "source",
                       "dataClass":  "public",
                       "authorship":  "original",
