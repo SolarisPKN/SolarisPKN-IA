@@ -6,7 +6,7 @@
     "files":  [
                   {
                       "path":  ".github/workflows/ci.yml",
-                      "sha256":  "cdf6d6fbc972aa46a3a297bf264af5163a97a97302673b4d391db40ab0795e2a",
+                      "sha256":  "a743be48b9ba714ed1fef38a3554683dbd7ada252ccfa84dbe0b3a18fc903874",
                       "kind":  "source",
                       "dataClass":  "public",
                       "authorship":  "original",

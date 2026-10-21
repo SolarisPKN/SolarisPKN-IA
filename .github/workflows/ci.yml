@@ -18,3 +18,5 @@ jobs:
         run: npm test
       - name: Public sanitization audit
         run: npm run audit:public
+      - name: Reviewed release manifest (SHA-256 and scope)
+        run: npm run audit:release
