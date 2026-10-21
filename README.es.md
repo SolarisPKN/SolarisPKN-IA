@@ -125,3 +125,7 @@ El repo documenta el mecanismo y el espacio de ideas, no a su dueño.
 ## Licencia
 
 SolarisPKN-IA se distribuye bajo la **GNU General Public License v3.0 only (GPL-3.0-only)**. Ver [LICENSE](LICENSE).
+
+## Preparación pública 1.4
+
+La [versión pública 1.4](docs/RELEASE-1.4.md) agrega ejemplos originales y sin dependencias para controlar la procedencia antes de publicar, seleccionar contexto con presupuesto y evaluar autorizaciones temporales sin ejecutar acciones administrativas. Cada archivo modificado está declarado en el [manifiesto](docs/release-source-manifest.json). Verificá tests, privacidad e integridad con `npm run ci`; consultá también las [reglas de publicación](docs/PUBLICATION-RULES.md).

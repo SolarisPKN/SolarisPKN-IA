@@ -46,3 +46,7 @@ This public edition is licensed under the **GNU General Public License v3.0 only
 The October 2026 wave adds inspectable reference modules for approval state, durable jobs, consensus review, functional telemetry state, egress policy and MCP exposure. It also adds CI that runs both the test suite and the public sanitization audit on pushes and pull requests.
 
 Operational counts in docs/RUNTIME-PARITY.md are a dated evidence snapshot from a private reference deployment, not a completeness claim for this public package.
+
+## Version 1.4 — original public-only reference
+
+This version adds a deny-by-default publication metadata gate, a deterministic class-aware context budget, and a pure temporary-permission-policy check. The implementation is original to the public blueprint and includes no operating-system elevation, reverse-engineered providers, credential access or private-state integrations. Every changed file is listed and digest-bound in `docs/release-source-manifest.json`. The release checks supplement, but do not replace, manual copyright and confidentiality review.

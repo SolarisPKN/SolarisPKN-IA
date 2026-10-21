@@ -125,3 +125,7 @@ This repository documents the mechanism and idea-space, not the owner.
 ## License
 
 SolarisPKN-IA is released under the **GNU General Public License v3.0 only (GPL-3.0-only)**. See [LICENSE](LICENSE).
+
+## Public 1.4 release preparation
+
+The [public 1.4 reference additions](docs/RELEASE-1.4.md) include original, dependency-free examples for release provenance checking, bounded context selection and temporary permission-policy evaluation. None execute commands or include vendor implementations. Every changed source file is allowlisted in the [source manifest](docs/release-source-manifest.json). Run `npm run ci` to verify tests, privacy scanning and SHA-256 scope. See [contribution rules](docs/PUBLICATION-RULES.md).
