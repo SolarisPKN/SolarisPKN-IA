@@ -51,5 +51,14 @@
     "partial": 548,
     "blockedExternal": 19,
     "meaning": "dated evidence snapshot from a private reference deployment; not a public completeness claim"
-  }
+  },
+  "publicVersion": "1.4.0",
+  "originalReferenceModules": {
+    "publicationGate": "src/security/publication-gate.mjs",
+    "contextBudget": "src/memory/context-budget.mjs",
+    "maintenancePolicy": "src/security/maintenance-window.mjs",
+    "effectfulPrivilegedExecution": false,
+    "providerRuntimeBundled": false
+  },
+  "releaseEvidence": "docs/release-source-manifest.json"
 }
